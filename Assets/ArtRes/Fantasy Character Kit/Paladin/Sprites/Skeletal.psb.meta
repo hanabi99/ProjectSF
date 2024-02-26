@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -88,7 +90,6 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
@@ -438,7 +439,6 @@ ScriptedImporter:
     - {x: 26, y: 25}
     - {x: 0, y: 26}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 163, y: 4}
     spritePosition: {x: 130, y: 86}
   - name: arm armor
@@ -773,7 +773,6 @@ ScriptedImporter:
     - {x: 23, y: 22}
     - {x: 0, y: 23}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 163, y: 971}
     spritePosition: {x: 209, y: 246}
   - name: arm front down
@@ -1168,7 +1167,6 @@ ScriptedImporter:
     - {x: 23, y: 22}
     - {x: 0, y: 23}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 105, y: 309}
     spritePosition: {x: 184, y: 142}
   - name: arm front up
@@ -1633,7 +1631,6 @@ ScriptedImporter:
     - {x: 23, y: 22}
     - {x: 0, y: 23}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 105, y: 404}
     spritePosition: {x: 199, y: 200}
   - name: headgear
@@ -2129,7 +2126,6 @@ ScriptedImporter:
     - {x: 34, y: 33}
     - {x: 34, y: 0}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 163, y: 360}
     spritePosition: {x: 191, y: 296}
   - name: side hair
@@ -2616,7 +2612,6 @@ ScriptedImporter:
     - {x: 0, y: 24}
     - {x: 42, y: 16}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 285, y: 830}
     spritePosition: {x: 227, y: 283}
   - name: head
@@ -2954,7 +2949,6 @@ ScriptedImporter:
     - {x: 26, y: 25}
     - {x: 0, y: 26}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 163, y: 485}
     spritePosition: {x: 204, y: 295}
   - name: breastplate
@@ -3270,7 +3264,6 @@ ScriptedImporter:
     - {x: 24, y: 23}
     - {x: 0, y: 24}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 328, y: 249}
     spritePosition: {x: 246, y: 225}
   - name: coat front armor
@@ -3643,7 +3636,6 @@ ScriptedImporter:
     - {x: 24, y: 23}
     - {x: 0, y: 24}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 163, y: 608}
     spritePosition: {x: 150, y: 79}
   - name: coat front
@@ -4018,7 +4010,6 @@ ScriptedImporter:
     - {x: 26, y: 25}
     - {x: 0, y: 26}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
     spritePosition: {x: 129, y: 14}
   - name: coat back armor
@@ -4414,7 +4405,6 @@ ScriptedImporter:
     - {x: 24, y: 23}
     - {x: 0, y: 24}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 227, y: 726}
     spritePosition: {x: 293, y: 82}
   - name: coat back
@@ -4968,7 +4958,6 @@ ScriptedImporter:
     - {x: 23, y: 44}
     - {x: 6, y: 45}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 4, y: 309}
     spritePosition: {x: 264, y: 4}
   - name: body
@@ -5404,7 +5393,6 @@ ScriptedImporter:
     - {x: 29, y: 28}
     - {x: 29, y: 0}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 4, y: 620}
     spritePosition: {x: 199, y: 133}
   - name: leg front up
@@ -5910,7 +5898,6 @@ ScriptedImporter:
     - {x: 24, y: 23}
     - {x: 0, y: 24}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 163, y: 726}
     spritePosition: {x: 203, y: 72}
   - name: leg front down
@@ -6277,7 +6264,6 @@ ScriptedImporter:
     - {x: 25, y: 24}
     - {x: 25, y: 0}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 265, y: 608}
     spritePosition: {x: 188, y: 0}
   - name: leg back up
@@ -6642,7 +6628,6 @@ ScriptedImporter:
     - {x: 24, y: 23}
     - {x: 0, y: 24}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 163, y: 850}
     spritePosition: {x: 254, y: 73}
   - name: leg back down
@@ -7018,9 +7003,8 @@ ScriptedImporter:
     - {x: 24, y: 23}
     - {x: 0, y: 24}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 273, y: 485}
-    spritePosition: {x: 272, y: -2}
+    spritePosition: {x: 272, y: 0}
   - name: coat tail
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -7414,7 +7398,6 @@ ScriptedImporter:
     - {x: 25, y: 26}
     - {x: 0, y: 26}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 328, y: 146}
     spritePosition: {x: 175, y: 85}
   - name: sword
@@ -8257,7 +8240,6 @@ ScriptedImporter:
     - {x: 26, y: 74}
     - {x: 25, y: 75}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 328, y: 4}
     spritePosition: {x: 301, y: 151}
   - name: arm back down
@@ -8702,7 +8684,6 @@ ScriptedImporter:
     - {x: 23, y: 22}
     - {x: 0, y: 23}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 227, y: 830}
     spritePosition: {x: 280, y: 144}
   - name: arm back up
@@ -9157,7 +9138,6 @@ ScriptedImporter:
     - {x: 23, y: 22}
     - {x: 0, y: 23}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 227, y: 925}
     spritePosition: {x: 266, y: 197}
   - name: hair back
@@ -9537,7 +9517,6 @@ ScriptedImporter:
     - {x: 29, y: 28}
     - {x: 0, y: 29}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 163, y: 214}
     spritePosition: {x: 188, y: 256}
   - name: wing
@@ -9984,7 +9963,6 @@ ScriptedImporter:
     - {x: 0, y: 34}
     - {x: 37, y: 30}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 4, y: 817}
     spritePosition: {x: 109, y: 254}
   characterData:
@@ -10397,6 +10375,7 @@ ScriptedImporter:
       order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
+    pivot: {x: 0, y: 0}
     boneReadOnly: 0
   sharedRigSpriteImportData: []
   sharedRigCharacterData:
@@ -10404,6 +10383,7 @@ ScriptedImporter:
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
+    pivot: {x: 0, y: 0}
     boneReadOnly: 0
   platformSettings: []
   mosaicLayers: 1
@@ -10416,6 +10396,8 @@ ScriptedImporter:
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   skeletonAssetReferenceID: 
+  padding: 4
+  spriteSizeExpand: 0
   spriteCategoryList:
     categories: []
   spritePackingTag: 
@@ -10654,6 +10636,9 @@ ScriptedImporter:
     isVisible: 1
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
   generateGOHierarchy: 0
   textureAssetName: Skeletal Texture
   prefabAssetName: Skeletal Prefab

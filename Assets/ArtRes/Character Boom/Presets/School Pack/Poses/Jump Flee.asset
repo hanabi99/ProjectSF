@@ -1,0 +1,546 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1430af4d3f97649bdfc6ac56ca05fa, type: 3}
+  m_Name: Jump Flee
+  m_EditorClassIdentifier: 
+  keys:
+  - Sleeve Upper R
+  - Sleeve Lower R
+  - Shoulder R
+  - Hand R
+  - Forearm R
+  - Tool R
+  - Hat
+  - Extra Hair R
+  - Head Accessory
+  - Side Hair R
+  - Front Hair
+  - Side Hair LF
+  - Back Hair R
+  - Ears
+  - Bottom Hair
+  - Makeup
+  - Mouth
+  - Brow
+  - Eyelashes
+  - Cornea
+  - Eye Highlight
+  - Irises
+  - Pupils
+  - Eye Socket
+  - Nose
+  - Head
+  - Upper Body Accessory
+  - Outerwear
+  - Tops
+  - Bottoms
+  - Inner Tops
+  - Inner Bottoms
+  - Torso
+  - Shoe R
+  - Upper Stocking R
+  - Lower Stocking R
+  - Thigh RF
+  - Thigh R
+  - Shin R
+  - Shoe L
+  - Upper Stocking L
+  - Lower Stocking L
+  - Thigh L
+  - Shin L
+  - Side Hair L
+  - Back Hair L
+  - Sleeve Upper L
+  - Sleeve Lower L
+  - Shoulder L
+  - Hand L
+  - Forearm L
+  - Tool L
+  - Extra Hair L
+  - Shadow
+  - root
+  - waist
+  - chest
+  - neck
+  - head
+  - hair_root
+  - extra_hair_r_1
+  - extra_hair_r_2
+  - extra_hair_r_3
+  - extra_hair_r_4
+  - extra_hair_r_5
+  - side_hair_l_1
+  - side_hair_l_2
+  - side_hair_l_3
+  - side_hair_r_1
+  - side_hair_r_2
+  - side_hair_r_3
+  - front_hair
+  - back_hair_1
+  - back_hair_2
+  - back_hair_3
+  - back_hair_4
+  - back_hair_5
+  - extra_hair_l_1
+  - extra_hair_l_2
+  - extra_hair_l_3
+  - extra_hair_l_4
+  - extra_hair_l_5
+  - hat
+  - eyes
+  - brow
+  - eye_socket
+  - Eye Mask - School Pack
+  - nose
+  - mouth
+  - shoulder_r
+  - forearm_r
+  - hand_r
+  - tool_r
+  - shoulder_l
+  - forearm_l
+  - hand_l
+  - tool_l
+  - thigh_l
+  - shin_l
+  - thigh_r
+  - shin_r
+  - skirt_5
+  - skirt_3
+  - skirt_1
+  - skirt_2
+  - skirt_4
+  values:
+  - relativeLocalPosition: {x: 19.868963, y: 2.4376507, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 54
+  - relativeLocalPosition: {x: 15.533964, y: 2.4376507, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 53
+  - relativeLocalPosition: {x: 19.973967, y: 2.4226665, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 52
+  - relativeLocalPosition: {x: 12.933966, y: 2.3126507, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 51
+  - relativeLocalPosition: {x: 15.673964, y: 2.3776531, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 50
+  - relativeLocalPosition: {x: 12.873968, y: 0.15264702, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 49
+  - relativeLocalPosition: {x: 28.94397, y: 1.4976463, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 48
+  - relativeLocalPosition: {x: 23.058966, y: 3.7726421, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 47
+  - relativeLocalPosition: {x: 25.83397, y: 1.1276512, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 46
+  - relativeLocalPosition: {x: 23.733961, y: 1.5176678, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 45
+  - relativeLocalPosition: {x: 26.058968, y: -0.7273598, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 44
+  - relativeLocalPosition: {x: 24.793968, y: -1.8273354, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 43
+  - relativeLocalPosition: {x: 24.743965, y: 2.4176598, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 42
+  - relativeLocalPosition: {x: 24.49897, y: 2.1876488, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 42
+  - relativeLocalPosition: {x: 26.903969, y: 0.7076378, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 40
+  - relativeLocalPosition: {x: 24.108963, y: -0.08234024, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 39
+  - relativeLocalPosition: {x: 23.568968, y: -0.27734566, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 38
+  - relativeLocalPosition: {x: 25.683968, y: -0.28735733, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 37
+  - relativeLocalPosition: {x: 24.868965, y: -0.04733658, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 36
+  - relativeLocalPosition: {x: 24.823967, y: -0.19235611, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 35
+  - relativeLocalPosition: {x: 24.99897, y: -0.3173561, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 34
+  - relativeLocalPosition: {x: 24.78897, y: -0.19235611, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 33
+  - relativeLocalPosition: {x: 24.83397, y: -0.18735123, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 32
+  - relativeLocalPosition: {x: 24.80397, y: -0.07236099, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 31
+  - relativeLocalPosition: {x: 23.988966, y: -0.6423359, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 30
+  - relativeLocalPosition: {x: 25.728966, y: 0.6626549, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 29
+  - relativeLocalPosition: {x: 21.448965, y: -0.117341995, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 28
+  - relativeLocalPosition: {x: 16.153967, y: 0.082639694, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 27
+  - relativeLocalPosition: {x: 18.788969, y: 0.06265068, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 26
+  - relativeLocalPosition: {x: 12.788965, y: -0.03235054, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 25
+  - relativeLocalPosition: {x: 20.973967, y: -0.07733345, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 24
+  - relativeLocalPosition: {x: 13.608969, y: -0.037355423, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 23
+  - relativeLocalPosition: {x: 18.968962, y: 0.24764824, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 22
+  - relativeLocalPosition: {x: 0.26396576, y: 1.4126588, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 39
+  - relativeLocalPosition: {x: 8.478963, y: 1.2226553, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 35
+  - relativeLocalPosition: {x: 3.9539647, y: 1.4376521, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 30
+  - relativeLocalPosition: {x: 10.468965, y: 1.2126455, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 24
+  - relativeLocalPosition: {x: 10.763967, y: 1.257659, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 20
+  - relativeLocalPosition: {x: 4.0489664, y: 1.5526423, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 16
+  - relativeLocalPosition: {x: 0.2239646, y: -1.4473573, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 15
+  - relativeLocalPosition: {x: 8.363965, y: -1.3623362, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 14
+  - relativeLocalPosition: {x: 4.013966, y: -1.3423467, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 13
+  - relativeLocalPosition: {x: 11.223966, y: -0.9223337, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 12
+  - relativeLocalPosition: {x: 4.098965, y: -1.2523503, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 11
+  - relativeLocalPosition: {x: 23.338964, y: -1.1223469, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 10
+  - relativeLocalPosition: {x: 24.283966, y: 0.97265244, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 9
+  - relativeLocalPosition: {x: 19.848967, y: -1.0673542, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 8
+  - relativeLocalPosition: {x: 15.458967, y: -0.9473591, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 7
+  - relativeLocalPosition: {x: 19.793966, y: -0.9423542, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 6
+  - relativeLocalPosition: {x: 12.813967, y: -1.0773335, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 5
+  - relativeLocalPosition: {x: 15.478964, y: -0.9623432, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 4
+  - relativeLocalPosition: {x: 12.713964, y: -2.9823322, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 3
+  - relativeLocalPosition: {x: 23.518965, y: -2.7273579, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 2
+  - relativeLocalPosition: {x: -23.336039, y: -0.077329636, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 1
+  - relativeLocalPosition: {x: 0, y: 0, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 17.447191, y: -1.7080708, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.31882206, w: 0.94781476}
+    localScale: {x: 0.99999976, y: 0.99999976, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 19.821276, y: -3.509035, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.005103562, w: 0.9999871}
+    localScale: {x: 0.99999994, y: 0.99999994, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 24.898262, y: -3.4572182, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.24554554, w: 0.96938515}
+    localScale: {x: 0.99999976, y: 0.99999976, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 25.832886, y: -3.963169, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.1564352, w: 0.9876884}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 30.272018, y: -5.0883217, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.10204233, w: 0.9947803}
+    localScale: {x: 0.9999997, y: 0.9999997, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 29.972092, y: -2.0148048, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.9648728, w: 0.26271853}
+    localScale: {x: 0.99999994, y: 0.99999994, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 28.033424, y: -0.87451553, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.9330779, w: 0.35967547}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 26.364395, y: 0.63674545, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.8826874, w: 0.46996117}
+    localScale: {x: 0.9999998, y: 0.9999998, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 25.056564, y: 2.580349, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.78408074, w: 0.6206594}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 24.56511, y: 4.6640587, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.6743258, w: 0.7384346}
+    localScale: {x: 1.0000002, y: 1.0000002, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 27.289787, y: -6.711033, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.9930839, w: 0.117408484}
+    localScale: {x: 0.9999998, y: 0.9999998, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 25.620842, y: -6.3108253, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.99305534, w: 0.11765091}
+    localScale: {x: 0.9999997, y: 0.9999997, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 24.079292, y: -5.9404945, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.99450004, w: 0.1047388}
+    localScale: {x: 0.99999994, y: 0.99999994, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 28.004242, y: -3.513401, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.9945085, w: 0.1046578}
+    localScale: {x: 0.99999946, y: 0.99999946, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 26.329025, y: -3.1568642, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.99448293, w: 0.10490065}
+    localScale: {x: 0.9999998, y: 0.9999998, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 24.798103, y: -2.8301735, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.99608666, w: 0.08838372}
+    localScale: {x: 0.9999997, y: 0.9999997, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 28.59896, y: -6.087925, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.9921316, w: -0.1252027}
+    localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 29.18155, y: -2.5024452, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.99256593, w: 0.12171092}
+    localScale: {x: 0.99999994, y: 0.99999994, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 27.371506, y: -2.0517616, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.99318147, w: 0.11658013}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 25.478035, y: -1.601017, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.9947501, w: 0.10233635}
+    localScale: {x: 0.9999998, y: 0.9999998, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 23.576246, y: -1.2055378, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.99506235, w: 0.099254064}
+    localScale: {x: 1.0000002, y: 1.0000002, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 21.721006, y: -0.83169746, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.9952609, w: 0.0972445}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 29.147041, y: -6.6524696, z: 0}
+    relativeLocalRotation: {x: -0.253253, y: -0.9674005, z: -0, w: 0}
+    localScale: {x: 0.99999934, y: 0.99999934, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 27.025528, y: -5.4599648, z: 0}
+    relativeLocalRotation: {x: -0.2291891, y: -0.97338223, z: -0, w: 0}
+    localScale: {x: 0.9999997, y: 0.9999997, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 24.881226, y: -4.3909035, z: 0}
+    relativeLocalRotation: {x: -0.3522114, y: -0.9359209, z: -0, w: 0}
+    localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 23.283232, y: -2.989748, z: 0}
+    relativeLocalRotation: {x: -0.4674014, y: -0.88404566, z: -0, w: 0}
+    localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 22.146772, y: -1.3217487, z: 0}
+    relativeLocalRotation: {x: -0.53424877, y: -0.8453275, z: -0, w: 0}
+    localScale: {x: 0.99999994, y: 0.99999994, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 31.352325, y: -5.256687, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.07080494, w: 0.99749035}
+    localScale: {x: 0.83, y: 0.83, z: 0.8299999}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 26.723816, y: -5.3353615, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.986699, w: 0.16255906}
+    localScale: {x: 0.9999996, y: 0.9999996, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 27.780983, y: -5.348423, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.986699, w: 0.16255906}
+    localScale: {x: 0.9999996, y: 0.9999996, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 26.968872, y: -5.0703163, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.986699, w: 0.16255906}
+    localScale: {x: 0.9999996, y: 0.9999996, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 26.875656, y: -5.145237, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.781521, w: 0.62387943}
+    localScale: {x: 1.0000001, y: 1.0000001, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 25.9572, y: -5.625675, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.986699, w: 0.16255906}
+    localScale: {x: 0.9999996, y: 0.9999996, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 25.59607, y: -5.4169044, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.986699, w: 0.16255906}
+    localScale: {x: 0.9999996, y: 0.9999996, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 24.973465, y: -2.0672035, z: 0}
+    relativeLocalRotation: {x: -0, y: 0, z: 0.18473892, w: -0.9827878}
+    localScale: {x: 0.9999997, y: 0.9999997, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 29.114868, y: -3.6811867, z: 0}
+    relativeLocalRotation: {x: -0, y: 0, z: -0.5181992, w: -0.85526013}
+    localScale: {x: 1, y: 0.9999996, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 31.04232, y: 0.009273529, z: 0}
+    relativeLocalRotation: {x: -0, y: 0, z: -0.52423424, w: -0.8515744}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 31.534195, y: 0.9775963, z: 0}
+    relativeLocalRotation: {x: -0, y: 0, z: 0.18478672, w: -0.982779}
+    localScale: {x: 1.0000004, y: 1.0000004, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 23.681822, y: -5.1460896, z: 0}
+    relativeLocalRotation: {x: -0, y: 0, z: 0.041322965, w: -0.99914604}
+    localScale: {x: 1, y: 0.9999996, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 27.956161, y: -5.500248, z: 0}
+    relativeLocalRotation: {x: -0, y: 0, z: -0.5042793, w: -0.86354077}
+    localScale: {x: 1.29, y: 0.9999997, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 30.614632, y: -0.7885475, z: 0}
+    relativeLocalRotation: {x: -0, y: 0, z: -0.5067674, w: -0.86208314}
+    localScale: {x: 0.9999996, y: 0.9999996, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 30.980156, y: -0.13190079, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.96806186, w: -0.25071272}
+    localScale: {x: 0.9999998, y: 0.9999998, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 16.433352, y: -2.8545856, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.9188393, w: -0.39463243}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 11.838185, y: 1.9853506, z: 0}
+    relativeLocalRotation: {x: -0, y: 0, z: -0.3138457, w: -0.94947433}
+    localScale: {x: 0.9999996, y: 0.9999996, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 17.224108, y: -0.83429146, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.95241797, w: -0.30479592}
+    localScale: {x: 0.9999998, y: 0.9999998, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 11.743925, y: 3.073516, z: 0}
+    relativeLocalRotation: {x: -0, y: 0, z: -0.21082444, w: -0.9775242}
+    localScale: {x: 0.9999997, y: 0.9999997, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 17.052034, y: -4.517885, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.9999201, w: -0.012645404}
+    localScale: {x: 1.0000002, y: 1.0000002, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 17.617418, y: -2.2318745, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.98752207, w: -0.15748179}
+    localScale: {x: 0.9999998, y: 0.9999998, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 18.492205, y: -0.17111397, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: 0.9249221, w: 0.38015726}
+    localScale: {x: 0.9999998, y: 0.9999998, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 18.023867, y: -1.0579853, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.9722296, w: -0.23402975}
+    localScale: {x: 0.9999998, y: 0.9999998, z: 1}
+    sortingOrder: 0
+  - relativeLocalPosition: {x: 17.32799, y: -3.3223286, z: 0}
+    relativeLocalRotation: {x: 0, y: 0, z: -0.99715555, w: -0.07537324}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 0

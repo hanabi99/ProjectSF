@@ -1,0 +1,1 @@
+basic skin V2 uses ball joints, which are more suitable for scaling bones with Body Proportions.

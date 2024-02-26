@@ -1,0 +1,546 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec8da9418a6bf493e93ef4c7b7575847, type: 3}
+  m_Name: CharacterBoom Skeleton V2
+  m_EditorClassIdentifier: 
+  m_SpriteBones:
+  - m_Name: root
+    m_Guid: 10ef9fac67042fb4da8cb9d18f15804b
+    m_Position: {x: 2070.2664, y: 311.60352, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+    m_Length: 223.77731
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278190335
+  - m_Name: waist
+    m_Guid: 0897aa6171c6d2742af6965328be0781
+    m_Position: {x: 1481.7395, y: 49.52554, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.1592191, w: 0.9872433}
+    m_Length: 297.98892
+    m_ParentId: 0
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255615
+  - m_Name: chest
+    m_Guid: 28affe8010f7d984db4e9ddfa779ce23
+    m_Position: {x: 297.98892, y: -0.00012144688, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.30558804, w: 0.9521639}
+    m_Length: 507.72318
+    m_ParentId: 1
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255360
+  - m_Name: neck
+    m_Guid: aee6f5165f948e64094ff9496ffadb53
+    m_Position: {x: 507.7231, y: -0.00005443339, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.25048965, w: 0.96811926}
+    m_Length: 106.27739
+    m_ParentId: 2
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294967040
+  - m_Name: head
+    m_Guid: 90c11007869930546998b359cca237ce
+    m_Position: {x: 106.27739, y: -0.000004097368, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.05533315, w: 0.998468}
+    m_Length: 414.6464
+    m_ParentId: 3
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294901760
+  - m_Name: thigh_l
+    m_Guid: b97cf4b1580fe974ab2668449e05925d
+    m_Position: {x: -11.481591, y: -152.61589, z: 0}
+    m_Rotation: {x: 0, y: -0, z: -0.9806497, w: 0.19577067}
+    m_Length: 667.38855
+    m_ParentId: 1
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294902015
+  - m_Name: shin_l
+    m_Guid: 38daccd4b0eec8740bdeb1350dffb3c1
+    m_Position: {x: 667.3888, y: -0.000049102393, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.03872354, w: 0.99925}
+    m_Length: 749.6039
+    m_ParentId: 5
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278223103
+  - m_Name: thigh_r
+    m_Guid: b1ddccd1ec2212d489af6e801429f9a8
+    m_Position: {x: -70.581635, y: 56.13166, z: 0}
+    m_Rotation: {x: 0, y: -0, z: -0.9881458, w: 0.15351842}
+    m_Length: 673.07733
+    m_ParentId: 1
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255488
+  - m_Name: shin_r
+    m_Guid: ead9630a7ab69c84491cbd8314683ad8
+    m_Position: {x: 673.07776, y: 0.000105765495, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.0034639013, w: 0.99999404}
+    m_Length: 744.0493
+    m_ParentId: 7
+    m_Color:
+      serializedVersion: 2
+      rgba: 4286643968
+  - m_Name: shoulder_r
+    m_Guid: 99a5ecf25f7902f49a7326baf867d967
+    m_Position: {x: 516.6618, y: 138.91768, z: 0}
+    m_Rotation: {x: 0, y: -0, z: 0.98928607, w: 0.14599028}
+    m_Length: 444.4788
+    m_ParentId: 2
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294934528
+  - m_Name: forearm_r
+    m_Guid: 0fbffc66f6e5fa6499171ffc0ebecfac
+    m_Position: {x: 444.47855, y: 0.00004763859, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.007170008, w: 0.9999743}
+    m_Length: 416.3464
+    m_ParentId: 9
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294901888
+  - m_Name: hand_r
+    m_Guid: d3b0ec8f27fdfc040982c7e004811913
+    m_Position: {x: 416.3462, y: -0.00007278271, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.0070779733, w: 0.99997497}
+    m_Length: 86.891266
+    m_ParentId: 10
+    m_Color:
+      serializedVersion: 2
+      rgba: 4286578943
+  - m_Name: shoulder_l
+    m_Guid: 6a46a4ab9caaf1346992c597c9f2496f
+    m_Position: {x: 384.3639, y: -167.6371, z: 0}
+    m_Rotation: {x: 0, y: -0, z: 0.9900397, w: 0.14078842}
+    m_Length: 428.8953
+    m_ParentId: 2
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255615
+  - m_Name: forearm_l
+    m_Guid: 9b3d200d7149f5c488b069c4f1947a9a
+    m_Position: {x: 428.89554, y: -0.000013915062, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.006580485, w: 0.99997836}
+    m_Length: 419.37543
+    m_ParentId: 12
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255360
+  - m_Name: hand_l
+    m_Guid: 1a2347a4cc9fc1c44b1f76c10f78abbf
+    m_Position: {x: 419.37537, y: 0.0018912002, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.0028835481, w: 0.9999958}
+    m_Length: 75.15234
+    m_ParentId: 13
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294967040
+  - m_Name: hair_root
+    m_Guid: 940043229469f1e4382a339ff3cecc1f
+    m_Position: {x: 456.95502, y: 30.16863, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.05483254, w: 0.9984956}
+    m_Length: 161.35991
+    m_ParentId: 4
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294902015
+  - m_Name: extra_hair_r_1
+    m_Guid: 33a49794d86b6064b89717babae009c9
+    m_Position: {x: -91.7669, y: 294.86053, z: 0}
+    m_Rotation: {x: 0, y: -0, z: 0.9999204, w: 0.012613991}
+    m_Length: 224.9152
+    m_ParentId: 15
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278190335
+  - m_Name: extra_hair_r_2
+    m_Guid: a1a3d951911f56e4baf6e6ed3fc550ab
+    m_Position: {x: 224.91516, y: -0.00007681316, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.0011053936, w: 0.9999994}
+    m_Length: 225.15817
+    m_ParentId: 16
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255488
+  - m_Name: extra_hair_r_3
+    m_Guid: 2535e525ba679204cb12c258278a86a9
+    m_Position: {x: 225.15828, y: 0.0020862792, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.007433272, w: 0.9999724}
+    m_Length: 234.2661
+    m_ParentId: 17
+    m_Color:
+      serializedVersion: 2
+      rgba: 4286643968
+  - m_Name: extra_hair_r_4
+    m_Guid: 53cfa2160f34d804d9c73c3eaacf1b0d
+    m_Position: {x: 234.26614, y: -0.00039364977, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.008128453, w: 0.999967}
+    m_Length: 214.08379
+    m_ParentId: 18
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294934528
+  - m_Name: side_hair_l_1
+    m_Guid: c8ac1fec2fea7b54bb07350fe44551e2
+    m_Position: {x: -259.06943, y: -219.43579, z: 0}
+    m_Rotation: {x: 0, y: -0, z: 0.9998805, w: 0.015458997}
+    m_Length: 171.62666
+    m_ParentId: 15
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294901888
+  - m_Name: side_hair_l_2
+    m_Guid: a9bc45927e1b69247b621ab5da2c6c3b
+    m_Position: {x: 171.62668, y: 0.00017861929, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.00024414068, w: 1}
+    m_Length: 158.5414
+    m_ParentId: 20
+    m_Color:
+      serializedVersion: 2
+      rgba: 4286578943
+  - m_Name: side_hair_l_3
+    m_Guid: 65034d9cb686d334e89156b0c5fd3741
+    m_Position: {x: 158.5414, y: 0.013413281, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.012992349, w: 0.99991566}
+    m_Length: 152.13152
+    m_ParentId: 21
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278223103
+  - m_Name: side_hair_r_1
+    m_Guid: 5d7ffbb78f7f6fa478a2f3c64ca0779c
+    m_Position: {x: -254.0292, y: 108.17155, z: 0}
+    m_Rotation: {x: 0, y: -0, z: 0.99999654, w: 0.002629472}
+    m_Length: 171.27464
+    m_ParentId: 15
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255360
+  - m_Name: side_hair_r_2
+    m_Guid: 3719341caa26e8d43855282dece667eb
+    m_Position: {x: 171.27473, y: -0.0005255875, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.00024414068, w: 1}
+    m_Length: 156.53967
+    m_ParentId: 23
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294967040
+  - m_Name: side_hair_r_3
+    m_Guid: 75c234eddde0b304ba9981307d7eb410
+    m_Position: {x: 156.53969, y: -0.0072136456, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.016594112, w: 0.9998624}
+    m_Length: 156.36014
+    m_ParentId: 24
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294901760
+  - m_Name: front_hair
+    m_Guid: c54b2823c5ed2f946bb80c3eaabe00a7
+    m_Position: {x: -143.52866, y: -131.8449, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.9997283, w: -0.023309814}
+    m_Length: 158.93614
+    m_ParentId: 15
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294902015
+  - m_Name: extra_hair_r_5
+    m_Guid: 1ec40c9ecd5d890479fdb3fd9c92d4c5
+    m_Position: {x: 214.08377, y: -0.00018807381, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.0060702064, w: 0.99998164}
+    m_Length: 197.61517
+    m_ParentId: 19
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278190335
+  - m_Name: back_hair_1
+    m_Guid: c1d4bfdee307f324cbedb0daab8bea21
+    m_Position: {x: -159.275, y: 231.06367, z: 0}
+    m_Rotation: {x: 0, y: -0, z: 0.9998042, w: 0.019791817}
+    m_Length: 186.53183
+    m_ParentId: 15
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255615
+  - m_Name: back_hair_2
+    m_Guid: 115398da4490beb4984b15bd7b0c380f
+    m_Position: {x: 186.53175, y: 0.000055978562, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.0051674834, w: 0.99998665}
+    m_Length: 194.63875
+    m_ParentId: 28
+    m_Color:
+      serializedVersion: 2
+      rgba: 4286643968
+  - m_Name: back_hair_3
+    m_Guid: 73f79a8c6095e814397e02d27b9db366
+    m_Position: {x: 194.63882, y: -0.00073630176, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.014329622, w: 0.99989736}
+    m_Length: 194.2465
+    m_ParentId: 29
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294934528
+  - m_Name: back_hair_4
+    m_Guid: dfa34296487c71f408257594972d4f2d
+    m_Position: {x: 194.24638, y: -0.00018969318, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.0030977975, w: 0.99999523}
+    m_Length: 189.26103
+    m_ParentId: 30
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294901888
+  - m_Name: back_hair_5
+    m_Guid: 097a719779a99ba48bda2f7ed40f490e
+    m_Position: {x: 189.26129, y: -0.0010436301, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.002019365, w: 0.999998}
+    m_Length: 206.9403
+    m_ParentId: 31
+    m_Color:
+      serializedVersion: 2
+      rgba: 4286578943
+  - m_Name: extra_hair_l_1
+    m_Guid: 199532d5383bd554486de8a00ecb7290
+    m_Position: {x: -78.40081, y: -175.99554, z: 0}
+    m_Rotation: {x: 0, y: -0, z: 0.99999154, w: 0.004114334}
+    m_Length: 243.36996
+    m_ParentId: 15
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278223103
+  - m_Name: extra_hair_l_2
+    m_Guid: c3c03c9d74b4ee141b96a5ad67552b79
+    m_Position: {x: 243.37007, y: -0.000019000647, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.0010213135, w: 0.99999946}
+    m_Length: 239.61052
+    m_ParentId: 33
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255488
+  - m_Name: extra_hair_l_3
+    m_Guid: 079503647d7c22f4da66c02c9bb472bf
+    m_Position: {x: 239.6107, y: -0.00029940225, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.004256737, w: 0.99999094}
+    m_Length: 212.52802
+    m_ParentId: 34
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294967040
+  - m_Name: extra_hair_l_4
+    m_Guid: f2345f6314526a94a9b8141648e94468
+    m_Position: {x: 212.528, y: 0.00017335017, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.0020930697, w: 0.9999978}
+    m_Length: 201.84233
+    m_ParentId: 35
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294901760
+  - m_Name: extra_hair_l_5
+    m_Guid: 8724f9c8ae0105645986943159a86b8d
+    m_Position: {x: 201.84251, y: 0.0019756507, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.0051554656, w: 0.9999867}
+    m_Length: 210.75778
+    m_ParentId: 36
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294902015
+  - m_Name: tool_r
+    m_Guid: f17735b8d28bf4148aad871a9a360f81
+    m_Position: {x: 86.891266, y: -0.00016441177, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.7049478, w: 0.70925915}
+    m_Length: 279.12943
+    m_ParentId: 11
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278190335
+  - m_Name: tool_l
+    m_Guid: 68d389adb8833504697fb77fad1700e7
+    m_Position: {x: 75.152374, y: 0.0001804913, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.70749676, w: 0.70671666}
+    m_Length: 331.61664
+    m_ParentId: 14
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255615
+  - m_Name: hat
+    m_Guid: c6b5abc0feaa13943b9cdc73a2eb0afb
+    m_Position: {x: 515.9356, y: 158.97978, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.28810012, w: 0.9576003}
+    m_Length: 116.43334
+    m_ParentId: 4
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255360
+  - m_Name: skirt_5
+    m_Guid: 52b9db92d4697914d8be225a1a4acb39
+    m_Position: {x: 138.33325, y: -247.74031, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.95177054, w: 0.306811}
+    m_Length: 396.95605
+    m_ParentId: 1
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294934528
+  - m_Name: skirt_3
+    m_Guid: 5ee5b537a1acd2d439f30bc7072e9282
+    m_Position: {x: 45.219807, y: -31.44491, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.98619634, w: 0.16558029}
+    m_Length: 410.9491
+    m_ParentId: 1
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294901888
+  - m_Name: skirt_1
+    m_Guid: 9b0e66322f5e9c14f876b6dfa92a9c7d
+    m_Position: {x: -9.631074, y: 185.60739, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.997857, w: 0.06543305}
+    m_Length: 348.7299
+    m_ParentId: 1
+    m_Color:
+      serializedVersion: 2
+      rgba: 4286578943
+  - m_Name: skirt_2
+    m_Guid: d5164a8fc9feedb47acda629347cda48
+    m_Position: {x: 6.654191, y: 86.64601, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.9961071, w: 0.0881514}
+    m_Length: 399.72913
+    m_ParentId: 1
+    m_Color:
+      serializedVersion: 2
+      rgba: 4286578943
+  - m_Name: skirt_4
+    m_Guid: 4714bb3e19d0e3e4fad3c80a8f2ea514
+    m_Position: {x: 88.06357, y: -135.81339, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.9691491, w: 0.24647528}
+    m_Length: 432.19366
+    m_ParentId: 1
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278223103
+  - m_Name: eyes
+    m_Guid: 690fa9067f4136544828e035debfa51b
+    m_Position: {x: 127.13548, y: -102.97338, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.9999808, w: 0.0062031397}
+    m_Length: 29.398027
+    m_ParentId: 4
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255488
+  - m_Name: brow
+    m_Guid: bb9f8ec8f4ae9e144b94d7b032940c76
+    m_Position: {x: 228.08072, y: -71.54566, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.9999808, w: 0.0062031397}
+    m_Length: 20.23182
+    m_ParentId: 4
+    m_Color:
+      serializedVersion: 2
+      rgba: 4286643968
+  - m_Name: eye_socket
+    m_Guid: 771aeeb419b72df419ade4d859234580
+    m_Position: {x: 142.25099, y: -70.191635, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.9999808, w: 0.0062031397}
+    m_Length: 23.438442
+    m_ParentId: 4
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294901760
+  - m_Name: nose
+    m_Guid: 84e0aeda7746fd142b651b7d7f088fdd
+    m_Position: {x: 63.196445, y: -154.27116, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.9999808, w: 0.0062031397}
+    m_Length: 15.087058
+    m_ParentId: 4
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294902015
+  - m_Name: mouth
+    m_Guid: 6d978ca10826a91459ced14e3bb60abb
+    m_Position: {x: 22.399937, y: -145.57686, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.9999808, w: 0.0062031397}
+    m_Length: 17.92457
+    m_ParentId: 4
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278190335
+  - m_Name: knee_ball_l
+    m_Guid: 1499c39857afcc1469181ed8531df0dc
+    m_Position: {x: 667.3887, y: -0.00004004244, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.6803607, w: 0.73287755}
+    m_Length: 0.027302297
+    m_ParentId: 5
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255615
+  - m_Name: knee_ball_r
+    m_Guid: 6e61c0efd04c47d44843b877cbaaa1c2
+    m_Position: {x: 673.0778, y: 0.0001057655, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.7111762, w: 0.70301384}
+    m_Length: 0.015810812
+    m_ParentId: 7
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255360
+  - m_Name: elbow_ball_r
+    m_Guid: 613137a83e4c345419a14789606bc3ac
+    m_Position: {x: 444.4788, y: -0.0000764502, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.71002984, w: 0.70417166}
+    m_Length: 0.0052829776
+    m_ParentId: 9
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294967040
+  - m_Name: elbow_ball_l
+    m_Guid: 17dadc6e9a90f9d4bac1b34d13fae60a
+    m_Position: {x: 428.8953, y: -0.000009326135, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.7137213, w: 0.70042986}
+    m_Length: 0.041450012
+    m_ParentId: 12
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294901888
+  - m_Name: shoulder_ball_l
+    m_Guid: d64318c603edefd43a3a847f7d43b27d
+    m_Position: {x: 0.0004933667, y: 0.00056788174, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.7137213, w: 0.7004299}
+    m_Length: 0.0985049
+    m_ParentId: 12
+    m_Color:
+      serializedVersion: 2
+      rgba: 4286578943
+  - m_Name: shoulder_ball_r
+    m_Guid: 642db3804283a6948a23a1a23748bba8
+    m_Position: {x: -0.00038436503, y: -0.00013361216, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.71002984, w: 0.70417166}
+    m_Length: 0.014437357
+    m_ParentId: 9
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278223103
+  - m_Name: hip_ball_r
+    m_Guid: 4a5b3fcdc1d2b754093e94ebc7394ebb
+    m_Position: {x: -70.58102, y: 56.13135, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.8106714, w: 0.5855015}
+    m_Length: 1.1944072
+    m_ParentId: 1
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255488
+  - m_Name: hip_ball_l
+    m_Guid: 4b2755b85776797479f459435c6f884b
+    m_Position: {x: -11.481591, y: -152.61589, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.8106714, w: 0.5855015}
+    m_Length: 0
+    m_ParentId: 1
+    m_Color:
+      serializedVersion: 2
+      rgba: 4286643968

@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2877e7b20dcc04797e345ad3730d13, type: 3}
+  m_Name: character 46 Colors
+  m_EditorClassIdentifier: 
+  keys:
+  - Sleeve Upper R
+  - Sleeve Lower R
+  - Sleeve Lower Ball R
+  - Shoulder R
+  - Hand R
+  - Forearm R
+  - Elbow Ball R
+  - Tool R
+  - Hat
+  - Extra Hair R
+  - Head Accessory
+  - Side Hair R
+  - Front Hair
+  - Side Hair LF
+  - Back Hair R
+  - Ears
+  - Bottom Hair
+  - Makeup
+  - Mouth
+  - Brow
+  - Eyelashes
+  - Cornea
+  - Eye Highlight
+  - Irises
+  - Pupils
+  - Eye Socket
+  - Nose
+  - Head
+  - Upper Body Accessory
+  - Outerwear
+  - Tops
+  - Bottoms
+  - Inner Tops
+  - Inner Bottoms
+  - Torso
+  - Shoe R
+  - Upper Stocking R
+  - Lower Stocking R
+  - Upper Stocking Ball R
+  - Lower Stocking Ball R
+  - Thigh RF
+  - Thigh R
+  - Shin R
+  - Hip Ball R
+  - Knee Ball R
+  - Shoe L
+  - Upper Stocking L
+  - Lower Stocking L
+  - Upper Stocking Ball L
+  - Lower Stocking Ball L
+  - Thigh L
+  - Shin L
+  - Hip Ball L
+  - Knee Ball L
+  - Side Hair L
+  - Back Hair L
+  - Sleeve Upper L
+  - Sleeve Lower L
+  - Sleeve Lower Ball L
+  - Shoulder L
+  - Hand L
+  - Forearm L
+  - Elbow Ball L
+  - Tool L
+  - Extra Hair L
+  - Shadow
+  values:
+  - primaryColor: {r: 0.9803922, g: 0.9176471, b: 0.89019614, a: 1}
+    secondColor: {r: 0.9803922, g: 0.9176471, b: 0.89019614, a: 1}
+    thirdColor: {r: 0.9803922, g: 0.9176471, b: 0.89019614, a: 1}
+  - primaryColor: {r: 0.9686275, g: 0.909804, b: 0.882353, a: 1}
+    secondColor: {r: 0.9686275, g: 0.909804, b: 0.882353, a: 0}
+    thirdColor: {r: 0.9686275, g: 0.909804, b: 0.882353, a: 0}
+  - primaryColor: {r: 0.9686275, g: 0.909804, b: 0.882353, a: 1}
+    secondColor: {r: 0.9686275, g: 0.909804, b: 0.882353, a: 0}
+    thirdColor: {r: 0.9686275, g: 0.909804, b: 0.882353, a: 0}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 0.7803922, g: 0.61960787, b: 0.45882356, a: 1}
+    secondColor: {r: 0.31764707, g: 0.34117648, b: 0.37647063, a: 1}
+    thirdColor: {r: 0.7803922, g: 0.61960787, b: 0.45882356, a: 1}
+  - primaryColor: {r: 0.909804, g: 0.86666673, b: 0.7568628, a: 1}
+    secondColor: {r: 0.64705884, g: 0.61960787, b: 0.5411765, a: 1}
+    thirdColor: {r: 0.96470594, g: 0.9607844, b: 0.9215687, a: 1}
+  - primaryColor: {r: 0.9215687, g: 0.909804, b: 0.8196079, a: 1}
+    secondColor: {r: 0.7947005, g: 0.7861618, b: 0.7349612, a: 1}
+    thirdColor: {r: 1.1457448, g: 1.1494925, b: 1.0651498, a: 1}
+  - primaryColor: {r: 0.9333334, g: 0.70980394, b: 0.6392157, a: 1}
+    secondColor: {r: 0.87057155, g: 0.5675223, b: 0.49274883, a: 1}
+    thirdColor: {r: 0.9333334, g: 0.70980394, b: 0.6392157, a: 1}
+  - primaryColor: {r: 0.9215687, g: 0.909804, b: 0.8196079, a: 1}
+    secondColor: {r: 0.7947005, g: 0.7861618, b: 0.7349612, a: 1}
+    thirdColor: {r: 1.1457448, g: 1.1494925, b: 1.0651498, a: 1}
+  - primaryColor: {r: 0.9215687, g: 0.909804, b: 0.8196079, a: 1}
+    secondColor: {r: 0.7947005, g: 0.7861618, b: 0.7349612, a: 1}
+    thirdColor: {r: 1.1457448, g: 1.1494925, b: 1.0651498, a: 1}
+  - primaryColor: {r: 0.9215687, g: 0.909804, b: 0.8196079, a: 1}
+    secondColor: {r: 0.7947005, g: 0.7861618, b: 0.7349612, a: 1}
+    thirdColor: {r: 1.1457448, g: 1.1494925, b: 1.0651498, a: 1}
+  - primaryColor: {r: 0.9215687, g: 0.909804, b: 0.8196079, a: 1}
+    secondColor: {r: 0.7947005, g: 0.7861618, b: 0.7349612, a: 1}
+    thirdColor: {r: 1.1457448, g: 1.1494925, b: 1.0651498, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 0.9215687, g: 0.909804, b: 0.8196079, a: 1}
+    secondColor: {r: 0.7947005, g: 0.7861618, b: 0.7349612, a: 1}
+    thirdColor: {r: 1.1457448, g: 1.1494925, b: 1.0651498, a: 1}
+  - primaryColor: {r: 1, g: 0.627451, b: 0.45882353, a: 1}
+    secondColor: {r: 1, g: 0.54088056, b: 0.37225312, a: 1}
+    thirdColor: {r: 1, g: 0.5425453, b: 0.37391785, a: 1}
+  - primaryColor: {r: 0.9176471, g: 0.63529414, b: 0.454902, a: 1}
+    secondColor: {r: 0.9176471, g: 0.63529414, b: 0.454902, a: 1}
+    thirdColor: {r: 0.9176471, g: 0.63529414, b: 0.454902, a: 1}
+  - primaryColor: {r: 0.8773585, g: 0.59318256, b: 0.59318256, a: 1}
+    secondColor: {r: 0.8773585, g: 0.59318256, b: 0.59318256, a: 1}
+    thirdColor: {r: 0.8773585, g: 0.59318256, b: 0.59318256, a: 1}
+  - primaryColor: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
+    secondColor: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
+    thirdColor: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
+  - primaryColor: {r: 0, g: 0, b: 0, a: 1}
+    secondColor: {r: 0, g: 0, b: 0, a: 1}
+    thirdColor: {r: 0, g: 0, b: 0, a: 1}
+  - primaryColor: {r: 1, g: 1, b: 1, a: 1}
+    secondColor: {r: 1, g: 1, b: 1, a: 1}
+    thirdColor: {r: 1, g: 1, b: 1, a: 1}
+  - primaryColor: {r: 0, g: 0, b: 0, a: 1}
+    secondColor: {r: 0, g: 0, b: 0, a: 1}
+    thirdColor: {r: 0, g: 0, b: 0, a: 1}
+  - primaryColor: {r: 0.3215686, g: 0.33725488, b: 0.42352945, a: 1}
+    secondColor: {r: 0.3215686, g: 0.33725488, b: 0.42352945, a: 1}
+    thirdColor: {r: 0.5882353, g: 0.5411765, b: 0.5803922, a: 1}
+  - primaryColor: {r: 1, g: 1, b: 1, a: 1}
+    secondColor: {r: 1, g: 1, b: 1, a: 1}
+    thirdColor: {r: 1, g: 1, b: 1, a: 1}
+  - primaryColor: {r: 0.65882355, g: 0.42352942, b: 0.27058825, a: 1}
+    secondColor: {r: 0.65882355, g: 0.42352942, b: 0.27058825, a: 1}
+    thirdColor: {r: 0.65882355, g: 0.42352942, b: 0.27058825, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 0.9921569, g: 0.91372555, b: 0.8745099, a: 1}
+    secondColor: {r: 1.2588236, g: 1.1529413, b: 1.1019609, a: 1}
+    thirdColor: {r: 0.7854976, g: 0.7190093, b: 0.6750934, a: 1}
+  - primaryColor: {r: 0.74509805, g: 0.6509804, b: 0.6313726, a: 1}
+    secondColor: {r: 0.31921205, g: 0.3416276, b: 0.3773585, a: 1}
+    thirdColor: {r: 0.74509805, g: 0.6509804, b: 0.6313726, a: 1}
+  - primaryColor: {r: 0.74509805, g: 0.6509804, b: 0.6313726, a: 1}
+    secondColor: {r: 0.74509805, g: 0.6509804, b: 0.6313726, a: 1}
+    thirdColor: {r: 0.74509805, g: 0.6509804, b: 0.6313726, a: 1}
+  - primaryColor: {r: 0.7803922, g: 0.61960787, b: 0.45882356, a: 1}
+    secondColor: {r: 0.6469521, g: 0.5221282, b: 0.38335186, a: 1}
+    thirdColor: {r: 1.6200144, g: 1.4592304, b: 1.2984459, a: 0}
+  - primaryColor: {r: 0.7803922, g: 0.61960787, b: 0.45882356, a: 1}
+    secondColor: {r: 0.7412281, g: 0.5514264, b: 0.4370699, a: 1}
+    thirdColor: {r: 0.7803922, g: 0.61960787, b: 0.45882356, a: 1}
+  - primaryColor: {r: 0.9215687, g: 0.92549026, b: 0.9686275, a: 1}
+    secondColor: {r: 0.94118816, g: 0.7854641, b: 1.499362, a: 1}
+    thirdColor: {r: 1.4027008, g: 1.5599983, b: 1.6031357, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 0.32156864, g: 0.3372549, b: 0.28235295, a: 1}
+    secondColor: {r: 1.270588, g: 1.309804, b: 1.2627451, a: 0}
+    thirdColor: {r: 1.270588, g: 1.309804, b: 1.2627451, a: 0}
+  - primaryColor: {r: 0.85098046, g: 0.86274517, b: 0.74509805, a: 1}
+    secondColor: {r: 0.58094716, g: 0.64850724, b: 0.57200176, a: 1}
+    thirdColor: {r: 1.345098, g: 1.5450981, b: 1.5215685, a: 0}
+  - primaryColor: {r: 0.85098046, g: 0.86274517, b: 0.74509805, a: 1}
+    secondColor: {r: 0.5803922, g: 0.64705884, b: 0.57254905, a: 1}
+    thirdColor: {r: 1.345098, g: 1.5450981, b: 1.5215685, a: 0}
+  - primaryColor: {r: 0.85098046, g: 0.86274517, b: 0.74509805, a: 1}
+    secondColor: {r: 0.58094716, g: 0.64850724, b: 0.57200176, a: 1}
+    thirdColor: {r: 1.345098, g: 1.5450981, b: 1.5215685, a: 0}
+  - primaryColor: {r: 0.85098046, g: 0.86274517, b: 0.74509805, a: 1}
+    secondColor: {r: 0.58094716, g: 0.64850724, b: 0.57200176, a: 1}
+    thirdColor: {r: 1.345098, g: 1.5450981, b: 1.5215685, a: 0}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 0.32156864, g: 0.3372549, b: 0.28235295, a: 1}
+    secondColor: {r: 1.2705884, g: 1.309804, b: 1.2627454, a: 0}
+    thirdColor: {r: 1.2705884, g: 1.309804, b: 1.2627454, a: 0}
+  - primaryColor: {r: 0.75294125, g: 0.7843138, b: 0.654902, a: 1}
+    secondColor: {r: 0.48235297, g: 0.5686275, b: 0.48235297, a: 1}
+    thirdColor: {r: 1.4941177, g: 1.5843139, b: 1.5058824, a: 0}
+  - primaryColor: {r: 0.75294125, g: 0.7843138, b: 0.654902, a: 1}
+    secondColor: {r: 0.48235297, g: 0.5686275, b: 0.48235297, a: 1}
+    thirdColor: {r: 1.4941177, g: 1.5843139, b: 1.5058824, a: 0}
+  - primaryColor: {r: 0.75294125, g: 0.7843138, b: 0.654902, a: 1}
+    secondColor: {r: 0.48235297, g: 0.5686275, b: 0.48235297, a: 1}
+    thirdColor: {r: 1.4941177, g: 1.5843139, b: 1.5058824, a: 0}
+  - primaryColor: {r: 0.75294125, g: 0.7843138, b: 0.654902, a: 1}
+    secondColor: {r: 0.48235297, g: 0.5686275, b: 0.48235297, a: 1}
+    thirdColor: {r: 1.4941177, g: 1.5843139, b: 1.5058824, a: 0}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 0.9215687, g: 0.909804, b: 0.8196079, a: 1}
+    secondColor: {r: 0.7947005, g: 0.7861618, b: 0.7349612, a: 1}
+    thirdColor: {r: 1.1457448, g: 1.1494925, b: 1.0651498, a: 1}
+  - primaryColor: {r: 0.9215687, g: 0.909804, b: 0.8196079, a: 1}
+    secondColor: {r: 0.7947005, g: 0.7861618, b: 0.7349612, a: 1}
+    thirdColor: {r: 1.1457448, g: 1.1494925, b: 1.0651498, a: 1}
+  - primaryColor: {r: 0.9803922, g: 0.9176471, b: 0.89019614, a: 1}
+    secondColor: {r: 0.9803922, g: 0.9176471, b: 0.89019614, a: 0}
+    thirdColor: {r: 0.9803922, g: 0.9176471, b: 0.89019614, a: 0}
+  - primaryColor: {r: 1, g: 0.9649986, b: 0.9496855, a: 1}
+    secondColor: {r: 1, g: 0.9649986, b: 0.9496855, a: 0}
+    thirdColor: {r: 1, g: 0.9649986, b: 0.9496855, a: 0}
+  - primaryColor: {r: 1, g: 0.9649986, b: 0.9496855, a: 1}
+    secondColor: {r: 1, g: 0.9649986, b: 0.9496855, a: 0}
+    thirdColor: {r: 1, g: 0.9649986, b: 0.9496855, a: 0}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 1, g: 0.8784067, b: 0.81761, a: 1}
+    secondColor: {r: 0.9528302, g: 0.77240497, b: 0.69903284, a: 1}
+    thirdColor: {r: 0.8584906, g: 0.63250005, b: 0.5911949, a: 1}
+  - primaryColor: {r: 1, g: 1, b: 1, a: 1}
+    secondColor: {r: 1, g: 1, b: 1, a: 1}
+    thirdColor: {r: 1, g: 1, b: 1, a: 1}
+  - primaryColor: {r: 0.9215687, g: 0.909804, b: 0.8196079, a: 1}
+    secondColor: {r: 0.7947005, g: 0.7861618, b: 0.7349612, a: 1}
+    thirdColor: {r: 1.1457448, g: 1.1494925, b: 1.0651498, a: 1}
+  - primaryColor: {r: 0, g: 0, b: 0, a: 0.30980393}
+    secondColor: {r: 0, g: 0, b: 0, a: -0.69019604}
+    thirdColor: {r: 0, g: 0, b: 0, a: -0.69019604}

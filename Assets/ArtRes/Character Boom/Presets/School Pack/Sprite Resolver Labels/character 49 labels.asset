@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf63152bf863e64dae0c3cfdb510e05, type: 3}
+  m_Name: character 49 labels
+  m_EditorClassIdentifier: 
+  keys:
+  - Sleeve Upper R
+  - Sleeve Lower R
+  - Sleeve Lower Ball R
+  - Shoulder R
+  - Hand R
+  - Forearm R
+  - Elbow Ball R
+  - Tool R
+  - Hat
+  - Extra Hair R
+  - Head Accessory
+  - Side Hair R
+  - Front Hair
+  - Side Hair LF
+  - Back Hair R
+  - Ears
+  - Bottom Hair
+  - Makeup
+  - Mouth
+  - Brow
+  - Eyelashes
+  - Cornea
+  - Eye Highlight
+  - Irises
+  - Pupils
+  - Eye Socket
+  - Nose
+  - Head
+  - Upper Body Accessory
+  - Outerwear
+  - Tops
+  - Bottoms
+  - Inner Tops
+  - Inner Bottoms
+  - Torso
+  - Shoe R
+  - Upper Stocking R
+  - Lower Stocking R
+  - Upper Stocking Ball R
+  - Lower Stocking Ball R
+  - Thigh RF
+  - Thigh R
+  - Shin R
+  - Hip Ball R
+  - Knee Ball R
+  - Shoe L
+  - Upper Stocking L
+  - Lower Stocking L
+  - Upper Stocking Ball L
+  - Lower Stocking Ball L
+  - Thigh L
+  - Shin L
+  - Hip Ball L
+  - Knee Ball L
+  - Side Hair L
+  - Back Hair L
+  - Sleeve Upper L
+  - Sleeve Lower L
+  - Sleeve Lower Ball L
+  - Shoulder L
+  - Hand L
+  - Forearm L
+  - Elbow Ball L
+  - Tool L
+  - Extra Hair L
+  - Shadow
+  values:
+  - student A
+  - student A
+  - student A
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - student A
+  - student C
+  - student A
+  - student B
+  - student A
+  - student C
+  - student A
+  - student A
+  - basic skin V2
+  - student A
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - student A
+  - student A
+  - student A
+  - student A
+  - student A
+  - student A
+  - basic skin V2
+  - student A
+  - none
+  - student C
+  - none
+  - none
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - student A
+  - none
+  - student C
+  - none
+  - none
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - student A
+  - student A
+  - student A
+  - student A
+  - student A
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - basic skin V2
+  - student A
+  - none
+  - basic skin
