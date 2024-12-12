@@ -8,7 +8,7 @@ namespace OnlyNew.CharacterBoom
 {
     [CustomEditor(typeof(PoseSaver))]
     [CanEditMultipleObjects]
-    public class PoseSaverEditor : Editor
+    public class PoseSaverEditor : UnityEditor.Editor
     {
 
         SpriteRenderer spriteRenderer;

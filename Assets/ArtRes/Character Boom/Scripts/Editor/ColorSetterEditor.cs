@@ -8,7 +8,7 @@ namespace OnlyNew.CharacterBoom
 {
     [CustomEditor(typeof(ColorSetter))]
     [CanEditMultipleObjects]
-    public class ColorSetterEditor : Editor
+    public class ColorSetterEditor : UnityEditor.Editor
     {
         private List<SetMatColor> setters = new List<SetMatColor>();
         private Dictionary<string, SetMatColorGUI> settersGUIDict = new Dictionary<string, SetMatColorGUI>();

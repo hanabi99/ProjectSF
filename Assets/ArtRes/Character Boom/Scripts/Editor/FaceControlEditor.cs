@@ -4,7 +4,7 @@ using UnityEngine;
 namespace OnlyNew.CharacterBoom
 {
     [CustomEditor(typeof(FaceControl))]
-    public class FaceControlEditor : Editor
+    public class FaceControlEditor : UnityEditor.Editor
     {
         public override void OnInspectorGUI()
         {

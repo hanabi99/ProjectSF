@@ -5,7 +5,7 @@ using UnityEngine;
 namespace OnlyNew.CharacterBoom
 {
     [CustomEditor(typeof(RandomAssetSetter))]
-    public class RandomAssetSetterEditor : Editor
+    public class RandomAssetSetterEditor : UnityEditor.Editor
     {
         private Texture tex;
         private Texture2D background;

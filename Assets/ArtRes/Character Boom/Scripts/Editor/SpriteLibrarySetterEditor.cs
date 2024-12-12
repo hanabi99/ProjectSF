@@ -3,7 +3,7 @@ using UnityEditor;
 namespace OnlyNew.CharacterBoom
 {
     [CustomEditor(typeof(SpriteLibrarySetter))]
-    public class SpriteLibrarySetterEditor : Editor
+    public class SpriteLibrarySetterEditor : UnityEditor.Editor
     {
         private void OnEnable()
         {

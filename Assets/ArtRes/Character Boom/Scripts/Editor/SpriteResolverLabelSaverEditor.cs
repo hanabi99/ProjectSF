@@ -9,7 +9,7 @@ namespace OnlyNew.CharacterBoom
 {
     [CustomEditor(typeof(SpriteResolverLabelSaver))]
     [CanEditMultipleObjects]
-    public class SpriteResolverLabelSaverEditor : Editor
+    public class SpriteResolverLabelSaverEditor : UnityEditor.Editor
     {
 
         Dictionary<string, SpriteResolver> resolverDict = new Dictionary<string, SpriteResolver>();

@@ -1,11 +1,10 @@
 using UnityEditor;
 using UnityEngine;
-using static OnlyNew.CharacterBoom.BrightnessManager;
 
 namespace OnlyNew.CharacterBoom
 {
     [CustomEditor(typeof(BrightnessManager))]
-    public class BrightnessManagerEditor : Editor
+    public class BrightnessManagerEditor : UnityEditor.Editor
     {
         public override void OnInspectorGUI()
         {
