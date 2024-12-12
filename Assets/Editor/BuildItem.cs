@@ -9,7 +9,7 @@ namespace Editor
     /// <summary>
     /// TODO: 之后优化IOS Android 打包Editor代码 现在仅作测试
     /// </summary>
-    public class BuildItem
+    public static class BuildItem
     {
         public static string m_AndroidPath = Application.dataPath + "/../BuildTarget/Android/SF.apk";
         private static string xCodeOutPutPath = Application.dataPath + "/../BuildTarget/IOS/";
