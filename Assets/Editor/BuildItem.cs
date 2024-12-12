@@ -9,7 +9,7 @@ namespace SFBuild
     /// <summary>
     /// TODO: 之后优化IOS Android 打包Editor代码 现在仅作测试
     /// </summary>
-    public class BuildItem
+    public static class BuildItem
     {
         public static string m_AndroidPath = Application.dataPath + "/../BuildTarget/Android/SF.apk";
         private static string xCodeOutPutPath = Application.dataPath + "/../BuildTarget/IOS/";
@@ -22,12 +22,13 @@ namespace SFBuild
             Debug.Log(m_AndroidPath);
             
             //版本
-            PlayerSettings.bundleVersion = GetJenkinsParameter("version");
+            PlayerSettings.bundleVersion = GetJenkinsParameter("version") == "1" ? "0.1.0": GetJenkinsParameter("version");
             //打包次数
             PlayerSettings.iOS.buildNumber = GetJenkinsParameter("buildNum");
             //包名
-            PlayerSettings.applicationIdentifier = GetJenkinsParameter("bundleName");
+            PlayerSettings.applicationIdentifier = GetJenkinsParameter("bundleName") == "1" ? "com.hanabi.ProjectSF" : GetJenkinsParameter("bundleName");
             
+            // 设置为 IL2CPP 后端
             PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);
             PlayerSettings.SetScriptingBackend(BuildTargetGroup.iOS, ScriptingImplementation.IL2CPP);
             
