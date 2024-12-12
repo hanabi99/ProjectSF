@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Windows;
 
-namespace Editor
+namespace SFBuild
 {
     /// <summary>
     /// TODO: 之后优化IOS Android 打包Editor代码 现在仅作测试
