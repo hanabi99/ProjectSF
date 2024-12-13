@@ -11,8 +11,8 @@ namespace SFBuild
     /// </summary>
     public static class BuildItem
     {
-        public static string m_AndroidPath => Application.dataPath + "/../BuildTarget/Android/SF.apk";
-        private static string xCodeOutPutPath => Application.dataPath + "/../BuildTarget/IOS/";
+        public static string m_AndroidPath = Application.dataPath + "/../BuildTarget/Android/SF.apk";
+        private static string xCodeOutPutPath = Application.dataPath + "/../BuildTarget/IOS/";
     
         [MenuItem("Build/Android")]
         public static void Build()
