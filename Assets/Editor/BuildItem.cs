@@ -11,8 +11,8 @@ namespace SFBuild
     /// </summary>
     public static class BuildItem
     {
-        public static string m_AndroidPath => GetPath(Application.dataPath + "/../BuildTarget/Android/SF.apk");
-        private static string xCodeOutPutPath => GetPath(Application.dataPath + "/../BuildTarget/IOS/");
+        public static string m_AndroidPath => GetPath(Application.dataPath + "/BuildTarget/Android/SF.apk");
+        private static string xCodeOutPutPath => GetPath(Application.dataPath + "/BuildTarget/IOS/");
     
         [MenuItem("Build/Android")]
         public static void Build()
@@ -79,7 +79,7 @@ namespace SFBuild
 
         public static string GetPath(string absolutePath)
         {
-            var relativePath = "Assets" + absolutePath.Substring(Application.dataPath.Length);
+            var relativePath = absolutePath.Substring(Application.dataPath.Length);
             return relativePath;
         }
     }
