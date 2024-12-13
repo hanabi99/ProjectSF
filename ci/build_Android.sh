@@ -1,1 +1,1 @@
-"C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Unity.exe" -projectPath "C:\ProgramData\Jenkins\.jenkins\workspace\ProjectSF" -executeMethod SFBuild.BuildItem.BuildApk -quit -batchmode
+"C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Unity.exe" -projectPath "D:\UnityProject\ProjectSF" --version:"0.1.0" --buildNum:"100" --bundleName:"com.hanabi.ProjectSF" -executeMethod SFBuild.BuildItem.BuildApk -quit -batchmode

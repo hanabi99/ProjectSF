@@ -20,31 +20,42 @@ namespace SFBuild
         public static void BuildApk()
         {
             CreateWorkFolder(m_AndroidPath);
-            
             Debug.Log(m_AndroidPath);
-            //版本
-            //PlayerSettings.bundleVersion = GetJenkinsParameter("version");
-            //打包次数
-            //PlayerSettings.Android.bundleVersionCode = int.Parse(GetJenkinsParameter("buildNum"));
-            //包名
-            //PlayerSettings.applicationIdentifier = GetJenkinsParameter("bundleName");
+            SetParameter();
             BuildPipeline.BuildPlayer(FindEnableEditorrScenes(), m_AndroidPath, BuildTarget.Android, BuildOptions.None);
+            Debug.Log("Build App Done!");
         }
+        
         /// <summary>
         ///解释jekins 传输的参数
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
-        static string GetJenkinsParameter(string name)
+        static void SetParameter()
         {
-            foreach(var arg in Environment.GetCommandLineArgs())
+            string[] args = System.Environment.GetCommandLineArgs();
+            foreach (var s in args)
             {
-                if (arg.StartsWith(name))
+                if (s.Contains("--version:"))
                 {
-                    return arg.Split("-"[0])[1];
+                    var version= s.Split(':')[1];
+                    // 设置app名字
+                    PlayerSettings.bundleVersion = version;
+                }
+
+                if (s.Contains("--buildNum:"))
+                {
+                    var buildNum = s.Split(':')[1];
+                    // 设置版本号
+                    PlayerSettings.Android.bundleVersionCode = int.Parse(buildNum);
+                }
+                if (s.Contains("--bundleName:"))
+                {
+                    var bundleName = s.Split(':')[1];
+                    // 设置版本号
+                    PlayerSettings.applicationIdentifier = bundleName;
                 }
             }
-            return "1";
         }
     
         /// <summary>
