@@ -27,10 +27,6 @@ namespace SFBuild
             PlayerSettings.iOS.buildNumber = GetJenkinsParameter("buildNum");
             //包名
             PlayerSettings.applicationIdentifier = GetJenkinsParameter("bundleName");
-            if ( EditorUserBuildSettings.activeBuildTarget != BuildTarget.Android)
-            {
-                EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.Android, BuildTarget.Android);
-            }
             var opt = new BuildPlayerOptions();
             opt.target = BuildTarget.Android;
             opt.scenes = FindEnableEditorrScenes();
