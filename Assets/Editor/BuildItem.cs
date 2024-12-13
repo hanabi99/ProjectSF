@@ -20,12 +20,7 @@ namespace SFBuild
             ClearWorkFolder(m_AndroidPath);
             
             Debug.Log(m_AndroidPath);
-            if (EditorUserBuildSettings.activeBuildTarget != BuildTarget.Android)
-            {
-                EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.Android, BuildTarget.Android);
-                PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);
-                PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64;
-            }
+            PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64;
             //版本
             PlayerSettings.bundleVersion = GetJenkinsParameter("version") == "1" ? "0.1.0": GetJenkinsParameter("version");
             //打包次数
