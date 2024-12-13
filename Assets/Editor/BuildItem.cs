@@ -26,7 +26,8 @@ namespace SFBuild
             PlayerSettings.iOS.buildNumber = GetJenkinsParameter("buildNum");
             //包名
             PlayerSettings.applicationIdentifier = GetJenkinsParameter("bundleName") == "1" ? "com.hanabi.ProjectSF" : GetJenkinsParameter("bundleName");
-            
+
+            EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.Android, BuildTarget.Android);
             BuildPipeline.BuildPlayer(FindEnableEditorrScenes(), m_AndroidPath, EditorUserBuildSettings.activeBuildTarget, BuildOptions.None);
         }
         /// <summary>
