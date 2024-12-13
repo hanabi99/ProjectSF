@@ -28,12 +28,7 @@ namespace SFBuild
             //PlayerSettings.Android.bundleVersionCode = int.Parse(GetJenkinsParameter("buildNum"));
             //包名
             //PlayerSettings.applicationIdentifier = GetJenkinsParameter("bundleName");
-            var opt = new BuildPlayerOptions();
-            opt.target = BuildTarget.Android;
-            opt.scenes = FindEnableEditorrScenes();
-            opt.options = BuildOptions.None;
-            opt.locationPathName = m_AndroidPath;
-            BuildPipeline.BuildPlayer(opt);
+            BuildPipeline.BuildPlayer(FindEnableEditorrScenes(), m_AndroidPath, BuildTarget.Android, BuildOptions.None);
         }
         /// <summary>
         ///解释jekins 传输的参数
