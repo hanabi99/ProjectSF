@@ -28,7 +28,7 @@ namespace SFBuild
             PlayerSettings.applicationIdentifier = GetJenkinsParameter("bundleName") == "1" ? "com.hanabi.ProjectSF" : GetJenkinsParameter("bundleName");
             PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);
             EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.Android, BuildTarget.Android);
-            BuildPipeline.BuildPlayer(FindEnableEditorrScenes(), m_AndroidPath, BuildTarget.Android, BuildOptions.None);
+            BuildPipeline.BuildPlayer(FindEnableEditorrScenes(), m_AndroidPath, EditorUserBuildSettings.activeBuildTarget, BuildOptions.None);
         }
         /// <summary>
         ///解释jekins 传输的参数
