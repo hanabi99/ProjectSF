@@ -19,8 +19,8 @@ namespace SFBuild
         {
             ClearWorkFolder(m_AndroidPath);
             
-            Debug.Log(m_AndroidPath);
-            
+            Debug.Log(m_AndroidPath);   
+            EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.Android, BuildTarget.Android);
             //版本
             PlayerSettings.bundleVersion = GetJenkinsParameter("version") == "1" ? "0.1.0": GetJenkinsParameter("version");
             //打包次数
