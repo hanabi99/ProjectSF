@@ -12,21 +12,22 @@ namespace SFBuild
     /// </summary>
     public static class BuildItem
     {
-        public static string m_AndroidPath = Application.dataPath + "/../BuildTarget/Android/SF.apk";
+ 
+        public static string m_AndroidPath = Application.dataPath + "/../BuildTarget/Android/ProjectSF.apk";
         private static string xCodeOutPutPath = Application.dataPath + "/../BuildTarget/IOS/";
     
         [MenuItem("Build/Android")]
-        public static void Build()
+        public static void BuildApk()
         {
             CreateWorkFolder(m_AndroidPath);
             
             Debug.Log(m_AndroidPath);
             //版本
-            PlayerSettings.bundleVersion = GetJenkinsParameter("version");
+            //PlayerSettings.bundleVersion = GetJenkinsParameter("version");
             //打包次数
-            PlayerSettings.iOS.buildNumber = GetJenkinsParameter("buildNum");
+            //PlayerSettings.Android.bundleVersionCode = int.Parse(GetJenkinsParameter("buildNum"));
             //包名
-            PlayerSettings.applicationIdentifier = GetJenkinsParameter("bundleName");
+            //PlayerSettings.applicationIdentifier = GetJenkinsParameter("bundleName");
             var opt = new BuildPlayerOptions();
             opt.target = BuildTarget.Android;
             opt.scenes = FindEnableEditorrScenes();
