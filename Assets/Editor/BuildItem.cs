@@ -11,16 +11,15 @@ namespace SFBuild
     /// </summary>
     public static class BuildItem
     {
-        public static string m_AndroidPath => GetPath(Application.dataPath + "/BuildTarget/Android/SF.apk");
-        private static string xCodeOutPutPath => GetPath(Application.dataPath + "/BuildTarget/IOS/");
+        public static string m_AndroidPath => Application.dataPath + "/../BuildTarget/Android/SF.apk";
+        private static string xCodeOutPutPath => Application.dataPath + "/../BuildTarget/IOS/";
     
         [MenuItem("Build/Android")]
         public static void Build()
         {
-            ClearWorkFolder(m_AndroidPath);
+            CreateWorkFolder(m_AndroidPath);
             
             Debug.Log(m_AndroidPath);
-            PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64;
             //版本
             PlayerSettings.bundleVersion = GetJenkinsParameter("version") == "1" ? "0.1.0": GetJenkinsParameter("version");
             //打包次数
@@ -28,8 +27,7 @@ namespace SFBuild
             //包名
             PlayerSettings.applicationIdentifier = GetJenkinsParameter("bundleName") == "1" ? "com.hanabi.ProjectSF" : GetJenkinsParameter("bundleName");
             
-            
-            BuildPipeline.BuildPlayer(FindEnableEditorrScenes(), m_AndroidPath, EditorUserBuildSettings.activeBuildTarget, BuildOptions.None);
+            BuildPipeline.BuildPlayer(FindEnableEditorrScenes(), m_AndroidPath, BuildTarget.Android, BuildOptions.None);
         }
         /// <summary>
         ///解释jekins 传输的参数
@@ -67,20 +65,13 @@ namespace SFBuild
         /// 清理工作文件夹
         /// </summary>
         /// <param name="folderPath"></param>
-        public static void ClearWorkFolder(string folderPath)
+        public static void CreateWorkFolder(string folderPath)
         {
             //绝对储存路径
-            if (Directory.Exists(m_AndroidPath))
+            if (!Directory.Exists(m_AndroidPath))
             {
-                Directory.Delete(m_AndroidPath);
+                Directory.CreateDirectory(m_AndroidPath);;
             }
-            Directory.CreateDirectory(m_AndroidPath);
-        }
-
-        public static string GetPath(string absolutePath)
-        {
-            var relativePath = absolutePath.Substring(Application.dataPath.Length);
-            return relativePath;
         }
     }
 }
