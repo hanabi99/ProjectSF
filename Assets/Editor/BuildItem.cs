@@ -22,14 +22,13 @@ namespace SFBuild
             
             Debug.Log(m_AndroidPath);
             //版本
-            PlayerSettings.bundleVersion = GetJenkinsParameter("version") == "1" ? "0.1.0": GetJenkinsParameter("version");
+            PlayerSettings.bundleVersion = GetJenkinsParameter("version");
             //打包次数
             PlayerSettings.iOS.buildNumber = GetJenkinsParameter("buildNum");
             //包名
-            PlayerSettings.applicationIdentifier = GetJenkinsParameter("bundleName") == "1" ? "com.hanabi.ProjectSF" : GetJenkinsParameter("bundleName");
+            PlayerSettings.applicationIdentifier = GetJenkinsParameter("bundleName");
             if ( EditorUserBuildSettings.activeBuildTarget != BuildTarget.Android)
             {
-                PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);
                 EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.Android, BuildTarget.Android);
             }
             var opt = new BuildPlayerOptions();
